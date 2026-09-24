@@ -1,0 +1,63 @@
+/* ==========================================
+   css/home.css - Styling Khusus Halaman Home
+   ========================================== */
+
+/* 1. Hero Section (Banner Utama) */
+.hero-section {
+  min-height: 80vh; /* Mengisi 80% tinggi layar browser */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b); /* Warna background gradient gelap */
+  color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+/* 2. Judul Utama */
+.hero-section h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #38bdf8; /* Warna biru muda aksen */
+}
+
+/* 3. Subjudul / Deskripsi Singkat */
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #cbd5e1;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* 4. Tombol Navigasi (Call to Action) */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #0284c7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background-color: #0369a1;
+  transform: translateY(-2px); /* Efek terangkat saat di-hover */
+}
+
+/* 5. Responsive Design (Tampilan Layar HP) */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
