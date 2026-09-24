@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak - XI RPL</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/kontak.css">
+</head>
+<body>
+
+  <!-- Navbar Placeholder -->
+  <div id="navbar-container"></div>
+
+  <!-- Content Halaman Kontak -->
+  <main class="kontak-container">
+    <h1>Hubungi Kami</h1>
+    <p>Punya pertanyaan atau ingin bekerja sama dengan kelas XI RPL?</p>
+
+    <div class="kontak-wrapper">
+      <!-- Info Kontak -->
+      <div class="kontak-info">
+        <h3>Informasi Kontak</h3>
+        <p><strong>Sekolah:</strong> SMKN 1 Garut</p>
+        <p><strong>Jurusan:</strong> Pengembangan Perangkat Lunak dan Gim (RPL)</p>
+        <p><strong>Email:</strong> xirpl@smkn1garut.sch.id</p>
+      </div>
+
+      <!-- Form Pesan -->
+      <form class="kontak-form">
+        <div class="form-group">
+          <label for="nama">Nama Lengkap</label>
+          <input type="text" id="nama" placeholder="Masukkan nama kamu" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Masukkan email kamu" required>
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" rows="4" placeholder="Tuliskan pesan kamu..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Kirim Pesan</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer Placeholder -->
+  <div id="footer-container"></div>
+
+  <!-- Script Pemanggil Component -->
+  <script src="js/include-components.js"></script>
+</body>
+</html>
