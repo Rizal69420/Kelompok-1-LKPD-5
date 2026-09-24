@@ -2,29 +2,51 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Profil Kelas XI RPL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - XI RPL</title>
+    <!-- CSS Component & Page Styles -->
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/profil.css">
 </head>
 <body>
+
+    <!-- Navbar Container -->
     <div id="navbar-container"></div>
-    <main>
-    <h1>Profil Kelas XI RPL</h1>
-    <p><strong>Wali Kelas:</strong> (Nama Wali Kelas)</p>
 
-    <h2>Visi</h2>
-    <p>(Masukkan visi kelas di sini)</p>
+    <!-- Main Content -->
+    <main class="profil-container">
+        <section class="profil-header">
+            <h1>Profil Kelas XI RPL</h1>
+            <p class="wali-kelas"><strong>Wali Kelas:</strong> Bu Widya</p>
+        </section>
 
-    <h2>Misi</h2>
-    <ul>
-        <li>(Poin misi 1)</li>
-        <li>(Poin misi 2)</li>
-    </ul>
+        <section class="profil-grid">
+            <div class="profil-card">
+                <h2>Visi Kelas</h2>
+                <p>Menjadi kelas pengembangan perangkat lunak yang unggul, kreatif, berkarakter, dan siap bersaing di dunia industri digital.</p>
+            </div>
 
-    <h2>Foto Kelas</h2>
-    <img src="foto-kelas.jpg" alt="Foto Kelas XI RPL">
+            <div class="profil-card">
+                <h2>Misi Kelas</h2>
+                <ul>
+                    <li>Menguasai konsep dasar dan lanjut pemrograman web serta aplikasi.</li>
+                    <li>Menerapkan budaya kerja tim yang solid dan profesional menggunakan Git & GitHub.</li>
+                    <li>Aktif berinovasi dalam pembuatan produk digital bermanfaat.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="foto-container">
+            <h2>Dokumentasi Kelas</h2>
+            <img src="foto-kelas.jpg" alt="Foto Kelas XI RPL" class="foto-kelas">
+        </section>
     </main>
+
+    <!-- Footer Container -->
     <div id="footer-container"></div>
+
+    <!-- Script Component Loader -->
     <script src="js/include-components.js"></script>
 </body>
 </html>
